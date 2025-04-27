@@ -1,5 +1,5 @@
-import Netflix from "../../public/image/netflix.svg"
-import VRimage from "../../public/image/vinit_edit.jpg"
+import Netflix from "/image/netflix.svg"
+import VRimage from "/image/vinit_edit.jpg"
 
 export const categoryOptions = [
   { value: "frontend", label: "Frontend" },
@@ -27,21 +27,21 @@ export const ProjectsData = [
     tech: "React.Js, Tailwind CSS, Node.js, MongoDB, Aggrigation Pipeline, Express.js, motion-frame, Rest APIs CSS, HTML, Git, Vercel",
   },
   {
-    image: "../../public/image/Smart_Contact.jpg",
+    image: "/image/Smart_Contact.jpg",
     git: "https://github.com/vinit-r/Smart-contact-management-system",
     link: "",
     name: "Smart Contact Management System",
     tech: "Java, SpringBoot, JPA, MySQL, CSS, HTML, Thymeleaf, Git, Vercel",
   },
   {
-    image: "../../public/image/Portfolio_old.jpg",
+    image: "/image/Portfolio_old.jpg",
     git: "",
     link: "https://vinitrahangdale.websiteaid.in/",
     name: "Old Portfolio",
     tech: "React.js, Tailwind CSS, HTML, CSS Git, Hostinger",
   },
   {
-    image: "../../public/image/Chat_Bot.jpg",
+    image: "/image/Chat_Bot.jpg",
     git: "https://github.com/vinit-r/EMIXCHANGE-Problem4-apjAbdulKalamUniversityIndore-MCA-vinitRahangdale",
     link: "",
     name: "WhatsApp Chat Bot",
@@ -54,7 +54,7 @@ export const ProjectsData = [
   //   tech:'Node.Js, JWT, MongoDB, Express.Js, JavaScript, Middleware, Role Based'
   //  },
   {
-    image: "../../public/image/Dashboard_visualization.jpg",
+    image: "/image/Dashboard_visualization.jpg",
     git: "https://github.com/vinit-r/Visual-Dashboard",
     link: "",
     name: "Visualization Dashboard",

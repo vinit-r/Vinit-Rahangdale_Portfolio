@@ -29,18 +29,18 @@ const ProjectCards = (props) => {
           style={{ backgroundColor: "rgba(0, 0, 0, 0.7)" }}
         >
           <div>
-            <h5 className="mb-2 md:text-xl text-sm font-bold text-white leading-tight">
+            <h5 className="mb-2 md:text-xl text-base font-bold text-white leading-tight">
               {ProjectName}
             </h5>
-            <p className="mb-4 text-base text-gray-300">{projectTech}</p>
+            <p className="mb-4 text-sm sm:text-base text-gray-300">{projectTech}</p>
           </div>
           <div className="flex justify-between">
             <button
               onClick={() => window.open(git, "_blank")}
               disabled={!git}
               type="button"
-              className={`inline-block rounded border-[1px] border-gray-700 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10 ${
-                git ? "cursor-pointer" : "cursor-not-allowed"
+              className={`inline-block rounded border-[1px] border-gray-700 px-6 pb-[6px] pt-2 text-xs font-medium uppercase bg-gray-900 ${
+                git ? "cursor-pointer transition duration-150 ease-in-out hover:border-neutral-100 text-neutral-50" : "cursor-not-allowed text-neutral-500"
               }`}
               data-twe-ripple-init
             >
@@ -50,8 +50,8 @@ const ProjectCards = (props) => {
               onClick={() => window.open(link, "_blank")}
               disabled={!link}
               type="button"
-              className={`inline-block rounded border-[1px] border-gray-700 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10 ${
-                link ? "cursor-pointer" : "cursor-not-allowed"
+              className={`inline-block rounded border-[1px] border-gray-700 px-6 pb-[6px] pt-2 text-xs font-medium uppercase bg-gray-900 ${
+                link ? "cursor-pointer transition duration-150 ease-in-out hover:border-neutral-100 text-neutral-50" : "cursor-not-allowed text-neutral-500"
               }`}
               data-twe-ripple-init
             >

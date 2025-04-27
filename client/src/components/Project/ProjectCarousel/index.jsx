@@ -91,13 +91,13 @@ function ProjectCarousel() {
               key={Index}
               className="block w-full md:w-[20rem] p-3 bg-[#111111] rounded-lg shadow-sm border-[1px] border-gray-700"
             >
-              <h5 className="mb-2 md:text-xl text-sm font-bold text-white leading-tight">
+              <h5 className="mb-2 md:text-xl text-base font-bold text-white leading-tight">
                 {data?.name}
               </h5>
               <p className="md:text-base text-sm font-bold text-gray-300">
                 {data?.company}
               </p>
-              <p className="font-normal text-gray-400">{data?.tech}</p>
+              <p className="text-sm md:font-normal text-gray-400">{data?.tech}</p>
             </div>
           ))}
         </div>
