@@ -1,0 +1,12 @@
+.insta {
+  cursor: url("/public/image/instagram_luside.svg"), pointer;
+}
+.linkedin {
+  cursor: url("/public/image/linkedin_luside.svg"), pointer;
+}
+.twitter {
+  cursor: url("/public/image/twitter_luside.svg"), pointer;
+}
+.git {
+  cursor: url("/public/image/github_luside.svg"), pointer;
+}
