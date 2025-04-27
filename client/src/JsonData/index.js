@@ -1,3 +1,6 @@
+import Netflix from "../../public/image/netflix.svg"
+import VRimage from "../../public/image/vinit_edit.jpg"
+
 export const categoryOptions = [
   { value: "frontend", label: "Frontend" },
   { value: "backend", label: "Backend" },
@@ -10,16 +13,16 @@ export const proficiencyOptions = [
 ];
 export const ProjectsData = [
   {
-    image: "../../public/image/netflix.svg",
+    image: {Netflix},
     git: "",
     link: "",
     name: "Netflic Clone App",
     tech: "React.js, Tailwind CSS, Firebase, RestAPIs, CSS, HTML, Git, Vercel",
   },
   {
-    image: "../../public/image/Portfolio_new.jpg",
-    git: "",
-    link: "",
+    image: {VRimage},
+    git: "https://github.com/vinit-r/Vinit-Rahangdale_Portfolio",
+    link: "https://vinit-rahangdale-portfolio.vercel.app/",
     name: "My Portfolio",
     tech: "React.Js, Tailwind CSS, Node.js, MongoDB, Aggrigation Pipeline, Express.js, motion-frame, Rest APIs CSS, HTML, Git, Vercel",
   },
