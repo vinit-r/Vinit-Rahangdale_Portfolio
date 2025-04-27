@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FaEye } from "react-icons/fa";
 import axiosInstance from "../../api/interseptor";
+import HeroImage from '../../../public/image/vinit_edit.jpg'
 
 const HeroBanner = () => {
   const [count, setCount] = useState(null);
@@ -88,7 +89,8 @@ const HeroBanner = () => {
         <div className="md:w-[40%] w-0 md:h-full h-0">
           <img
             className="h-full w-full object-cover bg-transparent opacity-50"
-            src="/public/image/vinit_edit.jpg"
+            // src="/public/image/vinit_edit.jpg"
+            src={HeroImage}
             alt="Vinit Rahangdale"
           />
         </div>

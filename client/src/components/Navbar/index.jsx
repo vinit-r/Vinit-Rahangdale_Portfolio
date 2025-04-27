@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
+import VrLogo from "../../../public/image/logo192.png"
 
 // const navItems = [
 //   {
@@ -28,8 +29,9 @@ const Navbar = () => {
           <div className="cursor-pointer">
             <img
               className="w-12 md:w-16 h-12 md:h-16 rounded-full"
-              src="../../../public/image/logo192.png"
-              alt="vinit-rahangdale-logo"
+              // src="../../../public/image/logo192.png"
+              src={VrLogo}
+              alt="VR-logo"
             />
           </div>
           <Link
